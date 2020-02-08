@@ -1,0 +1,34 @@
+//product 样式 
+.jd_prod{
+    padding: 0 5px;
+}
+.jd_prod .jd_proBox{
+    width: 100%;
+    min-height: 200px;
+    background: #fff;
+    margin-top: 10px;
+    border-radius: 0 0 1px #d8d8d8;
+}
+.jd_prod .jd_proBox .pro_title{
+    height: 34px;
+    border-bottom: 1px solid #ddd;
+}
+.jd_prod .jd_proBox .pro_title.nb{
+    border-bottom: none;
+}
+.jd_prod .jd_proBox .pro_title h3{
+    position: relative;
+    text-indent: 20px;
+    font-weight: normal;
+    line-height: 34px;
+}
+.jd_prod .jd_proBox .pro_title h3:before{
+    content:'';
+    position: absolute;
+    left:10px;
+    top: 10px;
+    width: 3px;
+    height: 14px;
+    background: #d8505c;
+}
+

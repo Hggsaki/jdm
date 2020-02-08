@@ -1,0 +1,69 @@
+.sk_icon{
+    width: 16px;
+    height: 20px;
+    float: left;
+    margin-top: 7px;
+    margin-left: 10px;
+    background: url('../../../../images/nav_3.png') no-repeat;
+    background-size: 16px 16px;
+}
+.sk_text{
+    color: #d8505c;
+    margin-left: 10px;
+    float: left;
+    margin-top: 5px;
+}
+.sk_time{
+    float: left;
+    margin-left: 10px;
+}
+.sk_time span{
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    color: #fff;
+    background-color: #333;
+    margin-left: 3px;
+    margin-top: 7px;
+    float: left;
+}
+.sk_time span:nth(3n){
+    background: #fff;
+    color: 333;
+    width: 3px;
+}
+
+//商品
+.sk_product{
+    width: 100%;
+}
+.sk_product li{
+    width: 33.333333%;
+    float: left;
+}
+.sk_product li a{
+    width: 100%;
+    display: block;
+    border-right: 1px solid #ddd;
+}
+.sk_product li a:last-child{
+    border-right: none;
+}
+.sk_product li a img{
+    width: 64%;
+    margin: 0 auto;
+    display: block;
+}
+.sk_product li p{
+    font-size: 12px;
+    text-align: center;
+    padding: 3px 0;
+}
+.sk_product li .now_price{
+    color: #d8505c;
+}
+.sk_product li .old_price{
+    color: #666;
+    text-decoration: line-through;
+}

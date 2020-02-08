@@ -1,0 +1,56 @@
+*,
+::before,
+::after{
+    /*选中所有的元素和伪元素*/
+    margin: 0;
+    padding: 0;
+    /*针对移动端*/
+    box-sizing: border-box;
+    /*主流浏览器兼容*/
+    -webkit-box-sizing: border-box;
+    /*移动端特有 点击高亮效果  消除*/
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+    font-size: 14px;
+    color: #333;
+    font-family: 'Microsoft Yahei','sans-serif';
+    background: #CCC;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+input,textarea{
+    outline: none;
+    border: none;
+    resize: none;
+    /*清除移动端输入框特有样式*/
+    -webkit-appearance: none;
+}
+
+/*公用样式common*/
+.f_left{
+    float: left;
+}
+.f_right{
+    float: right;
+}
+.clearfix::before,
+.clearfix::after{
+    content:'';
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.m_l10{
+    margin-left: 10px;
+}
+.m_r10{
+    margin-right: 10px;
+}

@@ -1,0 +1,28 @@
+.jd_nav{
+    width: 100%;
+    background: #fff;
+}
+.jd_nav ul{
+    width: 100%;
+    padding: 10px 0;
+}
+.jd_nav ul li{
+    width: 25%;
+    float: left;
+}
+.jd_nav ul li a{
+    display: block;
+    width: 100%;
+}
+.jd_nav ul li a img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+.jd_nav ul li a p{
+    color: #666;
+    font-size: 12px;
+    padding: 5px 0;
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+//banner css
+
+.jd_banner{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.jd_banner ul:first-child{
+    width: 800%;
+    transform: translateX(-12.5%);
+    -webkit-transform: translateX(-12.5%);
+}
+.jd_banner ul:first-child li{
+    width: 12.5%;
+    float: left;
+}
+.jd_banner ul:first-child li a{
+    width: 100%;
+    display: block;
+}
+.jd_banner ul:first-child li a img{
+    width: 100%;
+    display: block;
+}
+.jd_banner ul:last-child{
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    width: 86px;
+    margin-left: -43px;
+}
+.jd_banner ul:last-child li{
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    float: left;
+    margin-left: 10px;
+}
+.jd_banner ul:last-child li:first-child{
+    margin-left: 0;
+}
+.jd_banner ul:last-child li.now{
+    background: #fff;
+}
